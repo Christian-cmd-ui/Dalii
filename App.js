@@ -1,9 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import Expo from 'expo';
 import { StyleSheet, Text, View } from 'react-native';
-import RegisterScreen from './src/Screens/RegisterScreen';
+import HomeScreen from './src/Screens/HomeScreen';
+import {NativeBaseProvider} from 'native-base';
 
 export default function App() {
+
   return (
-    <RegisterScreen />
+    <NativeBaseProvider>
+        <HomeScreen />
+    </NativeBaseProvider>
+    
   );
 }

@@ -2,8 +2,7 @@ import React from 'react'
 import {View, Text} from 'react-native'
 import {Box, Button, Heading, Image, Input, NativeBaseProvider, Pressable, VStack} from 'native-base'
 import Colors from '../Colors';
-import { MaterialIcons } from '@expo/vector-icons';
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialIcons, Ionicons } from '@expo/vector-icons';
 
 function LoginScreen() {
   return (
