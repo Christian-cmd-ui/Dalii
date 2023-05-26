@@ -1,11 +1,12 @@
+import { Box, Center} from 'native-base';
 import React from 'react'
-import {View, Text} from 'react-native'
+
 
 function ProfileScreen() {
   return (
-    <View>
-        <Text>ProfileScreen</Text>
-    </View>
+    <Box>
+        <Center bg={Colors.gray}>ProfileScreen</Center>
+    </Box>
   )
 }
 
