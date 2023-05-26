@@ -2,7 +2,7 @@ import { Box, Button, Center, Image, VStack } from 'native-base';
 import React from 'react'
 import {View, Text} from 'react-native'
 import Colors from '../Colors'
-import Buttonne from '../Components/Buttonne';
+import Buttone from '../Components/Buttone';
 
 function NotVerifyScreen() {
   return (
@@ -14,12 +14,12 @@ function NotVerifyScreen() {
           />
         </Center>
         <VStack space={6} px={5} alignItems="center">
-        <Button bg={Colors.black} w="full" h={55} fontWeight="bold" rounded="full"  color={Colors.main}>
+        <Buttone bg={Colors.black} w="full" color={Colors.main}>
             Creer un compte
-          </Button>
-          <Button bg={Colors.main} color={Colors.black} w="full" h={55} fontWeight="bold" rounded="full">
+          </Buttone>
+          <Buttone bg={Colors.main} color={Colors.black} w="full">
             Se connecter
-          </Button>
+          </Buttone>
         </VStack>
     </Box>
   )

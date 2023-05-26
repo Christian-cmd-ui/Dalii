@@ -4,6 +4,7 @@ import Colors from '../Colors';
 import Ratings from '../Components/Ratings'
 import Buttone from '../Components/Buttone'
 import NumericInput from "react-native-numeric-input"
+import Review from '../Components/Review';
 
 function SingleProductScreen() {
   const [value, setValue] = useState(0);
@@ -48,7 +49,10 @@ function SingleProductScreen() {
                       Le poulet frit est du poulet passé dans une mixture à paner puis frit dans de l'huile, à la poêle ou sous pression.
                       Petit repas cool et sympa qui ravit autant les petits que les grands : le poulet pané et frit ! Des bonnes aiguillettes de poulet, tendres et savoureuses, ...
                     </Text>
-                    <Buttone bg={Colors.main} color={Colors.main}/>
+                    <Buttone bg={Colors.main} color={Colors.white} mt={10}>
+                      Ajouter au panier
+                    </Buttone>
+                    <Review />
         </ScrollView>
     </Box>
   )
