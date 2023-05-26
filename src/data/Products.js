@@ -1,8 +1,8 @@
 const products = [
     {
         _id: "1",
-        name: "Poulet Pane",
-        image: "./assets/Images/poulet1.png",
+        name: "Poulet Pané",
+        image: "https://cdn.pixabay.com/photo/2018/04/17/23/04/food-3329079_1280.png",
         description: "hbgedkubckjhbeoiukhbndsfj",
         price: 2500,
         countInStock: 25,
@@ -12,7 +12,7 @@ const products = [
     {
         _id: "2",
         name: "Buffet",
-        image: "./assets/Images/buffet.png",
+        image: "https://cdn.pixabay.com/photo/2018/04/17/23/04/food-3329079_1280.png",
         description: "hjbhjkbvkjnvfcv",
         price: 5000,
         countInStock: 10,
@@ -22,7 +22,7 @@ const products = [
     {
         _id: "3",
         name: "Salade",
-        image: "./assets/Images/salade1.png",
+        image: "https://cdn.pixabay.com/photo/2018/04/17/23/04/food-3329079_1280.png",
         description: "ijoijmkfvcse",
         price: 500,
         countInStock: 25,
@@ -32,7 +32,7 @@ const products = [
     {
         _id: "4",
         name: "Jus naturel",
-        image: "./assets/Images/jus.png",
+        image: "https://cdn.pixabay.com/photo/2018/04/17/23/04/food-3329079_1280.png",
         description: "ikmjoimewkmicdx",
         price: 500,
         countInStock: 30,

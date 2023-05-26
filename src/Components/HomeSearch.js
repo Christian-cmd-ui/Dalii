@@ -1,6 +1,7 @@
-import { HStack, Text } from 'native-base'
+import { Box, HStack, Input, Pressable} from 'native-base'
 import React from 'react'
 import Colors from '../Colors'
+import { FontAwesome5 } from '@expo/vector-icons'
 
 function HomeSearch() {
   return (
@@ -13,7 +14,34 @@ function HomeSearch() {
         alignItems="center" 
         safeAreaTop
     >
-
+    <Input
+        placeholder="Poulet, Poisson, Viande, ..."
+        w="85%"
+        bg={Colors.white}
+        type="search"
+        variant="filled"
+        h={12}
+        borderWidth={0}
+        _focus={{
+            bg:Colors.white
+        }}
+    />
+    <Pressable ml={3}>
+        <FontAwesome5 name="shopping-basket" size={24} color={Colors.white}/>
+        <Box 
+        px={1} 
+        rounded="full" 
+        position="absolute" 
+        top={-13} 
+        left={2} 
+        bg={Colors.red}
+        _text={{
+            color:Colors.white,
+            fontSize:'11px'
+        }} >
+            0
+        </Box>
+    </Pressable>
     </HStack>
   )
 }

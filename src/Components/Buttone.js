@@ -1,7 +1,7 @@
 import { Button } from 'native-base'
 import React from 'react'
 
-function Buttonne(mt, bg, color, children, onPress) {
+function Buttone(mt, bg, color, children, onPress) {
   return (
     <Button w="full" h={55} mt={mt} rounded="full" bg={bg} _text={{
         color:color,fontWeight:'bold'
@@ -13,4 +13,4 @@ function Buttonne(mt, bg, color, children, onPress) {
   )
 }
 
-export default Buttonne
+export default Buttone
