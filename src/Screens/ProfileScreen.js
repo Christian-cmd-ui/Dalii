@@ -1,11 +1,12 @@
 import { Box, Center, Heading, Image, Text} from 'native-base';
 import React from 'react'
 import Colors from '../Colors'
+import Tabs from '../Components/Profile/Tabs';
 
 
 function ProfileScreen() {
   return (
-    
+    <>
         <Center bg={Colors.main} pt={10} pb={6} >
             <Image 
             source={{uri:"https://res.cloudinary.com/dpflxilm6/image/upload/v1685136398/Dalii/user_1_ntkewy.png"}} 
@@ -20,7 +21,8 @@ function ProfileScreen() {
               Cree le 24 Mai 2023
             </Text>
         </Center>
-        
+        <Tabs />
+     </>
   )
 }
 
