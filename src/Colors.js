@@ -2,7 +2,7 @@ const Colors = {
     main: "#ffbf00",
     white: "#FFFFFF",
     black: "#000000",
-    lightBlack: "#222222 ",
+    lightBlack: '#959595',
     orange:"#FFA500",
     red:"#FF0000",
     gray:"#D3D3D3",

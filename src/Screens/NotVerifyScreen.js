@@ -1,6 +1,5 @@
-import { Box, Button, Center, Image, VStack } from 'native-base';
+import { Box, Center, Image, VStack } from 'native-base';
 import React from 'react'
-import {View, Text} from 'react-native'
 import Colors from '../Colors'
 import Buttone from '../Components/Buttone';
 

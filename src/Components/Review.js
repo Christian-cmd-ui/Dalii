@@ -3,6 +3,7 @@ import { Box, CheckIcon, FormControl, Heading, Select, Text, TextArea, VStack } 
 import Colors from '../Colors'
 import Ratings from './Ratings'
 import Messages from './Notifications/Messages'
+import Buttone from './Buttone'
 
 export default function Review() {
     const [ratings, setRatings] = useState('');
@@ -11,13 +12,13 @@ export default function Review() {
       <Heading bold fontSize={15} mb={2}>
         Commentaires
       </Heading>
-      {/* Pas de commentaires */}
+      {/* Pas de commentaires 
       <Messages 
             color={Colors.black} 
             bg={Colors.gray}
             bold
             children={"Pas de commentaires"}
-        />
+        /> */}
         {/* Commentaires */}
       <Box p={3} bgColor={Colors.gray} mt={5} rounded={5}>
         <Heading fontSize={15} color={Colors.black}>
@@ -35,7 +36,7 @@ export default function Review() {
         />
       </Box>
       {/* Ecrire un commentaire */}
-      <Box mt={6}>
+      {/*<Box mt={6}>
         <Heading fontSize={15} bold mb={4}>
             Laisser un commentaire :
         </Heading>
@@ -85,10 +86,24 @@ export default function Review() {
                     borderWidth={0}
                     bg={Colors.subGreen}
                     py={4}
+                    _focus={{
+                        bg: Colors.subGreen,
+                    }}
                 />
             </FormControl>
+            <Buttone 
+                bg={Colors.main}
+            >
+                Envoyer
+            </Buttone>
+            {/* Si utilisateur non connecte */}
+           {/* <Messages 
+            color={Colors.white} 
+            bg={Colors.black} 
+            children={"Veuillez vous connecter pour commenter"}
+        />
         </VStack>
-      </Box>
+      </Box> */}
     </Box>
   )
 }
