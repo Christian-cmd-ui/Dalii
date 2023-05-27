@@ -18,11 +18,11 @@ export default function Tabs() {
     const [routes] = useState ([
         {
             key:"first", 
-            title:"PROFILE"
+            title:"Profil"
         },
         {
             key:"second", 
-            title:"ORDERS"
+            title:"Commandes"
         }
     ]);
 
