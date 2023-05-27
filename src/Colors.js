@@ -11,7 +11,8 @@ const Colors = {
     deepestGray:"#5A5A5A",
     blue:"#0000FF",
     underline:"E5E5E5",
-    paypal:"#FFB730"
+    paypal:"#FFB730",
+    green: "#50C878"
 }
 
 
