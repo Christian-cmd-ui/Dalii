@@ -1,12 +1,12 @@
 import React from 'react';
 import {NativeBaseProvider} from 'native-base';
-import PaymentScreen from './src/Screens/PaymentScreen';
+import PlaceOrderScreen from './src/Screens/PlaceOrderScreen';
 
 export default function App() {
 
   return (
     <NativeBaseProvider>
-        <PaymentScreen />
+        <PlaceOrderScreen />
     </NativeBaseProvider>
     
   );

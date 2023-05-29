@@ -58,7 +58,7 @@ function PaymentScreen() {
                 Continuer
               </Buttone>
               <Text italic textAlign="center">
-                Moyen de paiment choisi : <Text bold> Orange Money</Text>
+                Moyen de paiment choisi par defaut: <Text bold>Orange Money</Text>
               </Text>
             </VStack>
           </ScrollView>
